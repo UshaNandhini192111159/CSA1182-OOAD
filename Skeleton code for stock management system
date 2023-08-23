@@ -1,0 +1,150 @@
+
+#ifndef CENTRAL_STOCK_SYSTEM_H
+#define CENTRAL_STOCK_SYSTEM_H
+
+#include <string>
+#include vector
+
+
+
+/**
+  * class Central_stock_system
+  * 
+  */
+
+class Central_stock_system
+{
+public:
+
+  // Constructors/Destructors
+  //  
+
+
+  /**
+   * Empty Constructor
+   */
+  Central_stock_system ();
+
+  /**
+   * Empty Destructor
+   */
+  virtual ~Central_stock_system ();
+
+  // Static Public attributes
+  //  
+
+  // Public attributes
+  //  
+
+
+  // Public attribute accessor methods
+  //  
+
+
+  // Public attribute accessor methods
+  //  
+
+
+
+  /**
+   */
+  void print_bill ()
+  {
+  }
+
+
+  /**
+   */
+  void delivery_status ()
+  {
+  }
+
+protected:
+
+  // Static Protected attributes
+  //  
+
+  // Protected attributes
+  //  
+
+public:
+
+
+  // Protected attribute accessor methods
+  //  
+
+protected:
+
+public:
+
+
+  // Protected attribute accessor methods
+  //  
+
+protected:
+
+
+private:
+
+  // Static Private attributes
+  //  
+
+  // Private attributes
+  //  
+
+  string store_details;
+  string update_stock;
+public:
+
+
+  // Private attribute accessor methods
+  //  
+
+private:
+
+public:
+
+
+  // Private attribute accessor methods
+  //  
+
+
+  /**
+   * Set the value of store_details
+   * @param new_var the new value of store_details
+   */
+  void setStore_details (string new_var)   {
+      store_details = new_var;
+  }
+
+  /**
+   * Get the value of store_details
+   * @return the value of store_details
+   */
+  string getStore_details ()   {
+    return store_details;
+  }
+
+  /**
+   * Set the value of update_stock
+   * @param new_var the new value of update_stock
+   */
+  void setUpdate_stock (string new_var)   {
+      update_stock = new_var;
+  }
+
+  /**
+   * Get the value of update_stock
+   * @return the value of update_stock
+   */
+  string getUpdate_stock ()   {
+    return update_stock;
+  }
+private:
+
+
+  void initAttributes () ;
+
+};
+
+#endif // CENTRAL_STOCK_SYSTEM_H
