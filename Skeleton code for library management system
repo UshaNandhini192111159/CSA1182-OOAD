@@ -1,0 +1,195 @@
+
+#ifndef LIBRARIAN_H
+#define LIBRARIAN_H
+
+#include <string>
+#include vector
+
+
+
+/**
+  * class Librarian
+  * 
+  */
+
+class Librarian
+{
+public:
+
+  // Constructors/Destructors
+  //  
+
+
+  /**
+   * Empty Constructor
+   */
+  Librarian ();
+
+  /**
+   * Empty Destructor
+   */
+  virtual ~Librarian ();
+
+  // Static Public attributes
+  //  
+
+  // Public attributes
+  //  
+
+
+  // Public attribute accessor methods
+  //  
+
+
+  // Public attribute accessor methods
+  //  
+
+
+
+  /**
+   */
+  void search ()
+  {
+  }
+
+
+  /**
+   */
+  void add_books ()
+  {
+  }
+
+
+  /**
+   */
+  void delete_books ()
+  {
+  }
+
+
+  /**
+   */
+  void issue_books ()
+  {
+  }
+
+
+  /**
+   */
+  void return_books ()
+  {
+  }
+
+
+  /**
+   */
+  void send_email ()
+  {
+  }
+
+protected:
+
+  // Static Protected attributes
+  //  
+
+  // Protected attributes
+  //  
+
+public:
+
+
+  // Protected attribute accessor methods
+  //  
+
+protected:
+
+public:
+
+
+  // Protected attribute accessor methods
+  //  
+
+protected:
+
+
+private:
+
+  // Static Private attributes
+  //  
+
+  // Private attributes
+  //  
+
+  string name;
+  int ID;
+  int password;
+public:
+
+
+  // Private attribute accessor methods
+  //  
+
+private:
+
+public:
+
+
+  // Private attribute accessor methods
+  //  
+
+
+  /**
+   * Set the value of name
+   * @param new_var the new value of name
+   */
+  void setName (string new_var)   {
+      name = new_var;
+  }
+
+  /**
+   * Get the value of name
+   * @return the value of name
+   */
+  string getName ()   {
+    return name;
+  }
+
+  /**
+   * Set the value of ID
+   * @param new_var the new value of ID
+   */
+  void setID (int new_var)   {
+      ID = new_var;
+  }
+
+  /**
+   * Get the value of ID
+   * @return the value of ID
+   */
+  int getID ()   {
+    return ID;
+  }
+
+  /**
+   * Set the value of password
+   * @param new_var the new value of password
+   */
+  void setPassword (int new_var)   {
+      password = new_var;
+  }
+
+  /**
+   * Get the value of password
+   * @return the value of password
+   */
+  int getPassword ()   {
+    return password;
+  }
+private:
+
+
+  void initAttributes () ;
+
+};
+
+#endif // LIBRARIAN_H
